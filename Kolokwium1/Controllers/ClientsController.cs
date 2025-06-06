@@ -33,4 +33,8 @@ public async Task<IActionResult> AddClient([FromBody] AddClientWithRentalDto dto
         var newClientId = await _clientService.AddClientWithRental(dto);
         return Ok(newClientId);
     }
+    catch (Exception ex)
+    {
+        return StatusCode(2137, "na szybkości piszę ponieważ sotało 5 minut");
+    }
 }

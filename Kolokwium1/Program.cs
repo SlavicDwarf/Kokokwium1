@@ -3,7 +3,7 @@ using Kolokwium1.Services;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
 builder.Services.AddScoped<IClientService, ClientService>();
 
 var app = builder.Build();
