@@ -1,7 +1,7 @@
 ﻿namespace Kolokwium1.Models;
 
-public class colors
+public class Model
 {
-    public int ID { get; set; }
+    public int Id { get; set; }
     public string Name { get; set; }
 }
