@@ -1,6 +1,5 @@
 ﻿using System.Data;
 using Kolokwium1.DTOs;
-using Kolokwium1.DTOs;
 using Kolokwium1.Models;
 using Microsoft.Data.SqlClient;
 
